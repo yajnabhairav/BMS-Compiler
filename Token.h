@@ -1,5 +1,5 @@
-#ifndef MINIC_TOKEN_H
-#define MINIC_TOKEN_H
+#ifndef BMS_TOKEN_H
+#define BMS_TOKEN_H
 
 #define TOKEN_MAX_IDENTIFIER_LENGTH 64
 
@@ -73,4 +73,4 @@ struct Token {
 char *TokenTypeToStr(enum TokenType type); // Convert token type to string
 void PrintToken(struct Token token);        // Print token details
 
-#endif // MINIC_TOKEN_H
+#endif // BMS_TOKEN_H
