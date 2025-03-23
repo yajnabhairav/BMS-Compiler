@@ -1,5 +1,5 @@
-#ifndef MINIC_REPORT_ERROR_H
-#define MINIC_REPORT_ERROR_H
+#ifndef BMS_REPORT_ERROR_H
+#define BMS_REPORT_ERROR_H
 
 #include "Lexer.h"
 #include <stdarg.h>
@@ -16,4 +16,4 @@ void ReportErrorAt(struct Lexer *l, const char *location, const char *format, ..
 // Report an error at the location of a specific token
 void ReportErrorAtToken(struct Lexer *l, struct Token token, const char *format, ...);
 
-#endif // MINIC_REPORT_ERROR_H
+#endif // BMS_REPORT_ERROR_H
