@@ -1,5 +1,5 @@
-#ifndef MINIC_LIST_H
-#define MINIC_LIST_H
+#ifndef BMS_LIST_H
+#define BMS_LIST_H
 
 #include <stdbool.h>
 
@@ -33,4 +33,4 @@ void List_Remove(struct List *l, int index);
 // Find the index of an element in the list
 int List_Find(struct List *l, void *element, ListElementsEqualityFunction equals);
 
-#endif // MINIC_LIST_H
+#endif // BMS_LIST_H
