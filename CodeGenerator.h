@@ -9,4 +9,4 @@
 // Function to generate x86 assembly code from the AST
 void CodeGeneratorX86_GenerateCode(FILE *asm_file, struct TranslationUnit *t_unit);
 
-#endif // MINIC_CODE_GENRATOR_X86_H
+#endif 
