@@ -1,5 +1,5 @@
-#ifndef MINIC_LEXER_H
-#define MINIC_LEXER_H
+#ifndef BMS_LEXER_H
+#define BMS_LEXER_H
 
 #include "List.h"
 #include "Token.h"
@@ -31,4 +31,4 @@ void Lexer_Init(struct Lexer *l, char *code, int code_len);
 struct Token Lexer_PeekToken(struct Lexer *l);
 struct Token Lexer_PeekToken2(struct Lexer *l, int offset);
 
-#endif // MINIC_LEXER_H
+#endif
